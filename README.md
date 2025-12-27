@@ -72,6 +72,40 @@ shopify-ai-analytics/
 
 5. Explanation
    - Converts metrics into simple business language
+  
+##  Sample API Request
+
+POST /api/v1/questions
+
+pgsql
+Copy code
+
+```json
+{
+  "store_id": "demo-store.myshopify.com",
+  "question": "How much inventory should I reorder for next week?"
+}
+
+Sample API Response
+{
+  "answer": "Based on past sales, you sell around 10 units per day. You should reorder at least 70 units to avoid stockouts next week.",
+  "confidence": "medium"
+}
+
+## Run the Project
+## Python AI Service (Runnable)
+
+cd python_ai_service
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload
+
+## Rails API (Design-Level Only)
+
+Due to system-level OS restrictions, Ruby on Rails could not be executed locally.
+However, complete Rails API code, routes, service logic, and dependency definitions
+are provided to demonstrate architecture and backend design.
 
 
 
