@@ -1,0 +1,23 @@
+source "https://rubygems.org"
+
+ruby "3.2.0"
+
+# Core Rails
+gem "rails", "~> 7.1.0"
+
+# Database (optional, for logs / future use)
+gem "pg"
+
+# API related
+gem "rack-cors"
+
+# HTTP requests (Rails → Python service)
+gem "net-http"
+
+# JSON handling
+gem "jbuilder"
+
+# Development tools
+group :development, :test do
+  gem "pry"
+end

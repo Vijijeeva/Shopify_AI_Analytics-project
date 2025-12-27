@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actioncable (7.1.0)
+    actionmailer (7.1.0)
+    actionpack (7.1.0)
+    actionview (7.1.0)
+    activejob (7.1.0)
+    activemodel (7.1.0)
+    activerecord (7.1.0)
+    activesupport (7.1.0)
+    rails (7.1.0)
+      actioncable (= 7.1.0)
+      actionmailer (= 7.1.0)
+      actionpack (= 7.1.0)
+      actionview (= 7.1.0)
+      activejob (= 7.1.0)
+      activemodel (= 7.1.0)
+      activerecord (= 7.1.0)
+      activesupport (= 7.1.0)
+    pg (1.5.4)
+    rack-cors (2.0.1)
+    jbuilder (2.11.5)
+    pry (0.14.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jbuilder
+  pg
+  pry
+  rack-cors
+  rails (~> 7.1.0)
+
+RUBY VERSION
+   ruby 3.2.0p0
+
+BUNDLED WITH
+   2.4.10
